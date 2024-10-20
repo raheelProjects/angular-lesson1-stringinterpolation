@@ -1,18 +1,28 @@
 body {
   background-color: aquamarine;
   color: blueviolet;
+  border-radius: 1rem;
 }
 h1 {
   text-align: center;
-  border-radius: 1rem;
+}
+h3 {
+  margin-left: 1rem;
+  color: #1b1b1b;
 }
 
 .info {
   display: flex;
   flex-direction: row;
+  margin-left: 1rem;
 }
 
 .title {
   font-weight: bold;
   padding-right: 2px;
+  color: #1b1b1b;
+}
+
+.value {
+  margin-left: 0.5rem;
 }
